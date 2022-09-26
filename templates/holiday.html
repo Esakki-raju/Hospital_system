@@ -1,0 +1,15 @@
+<body style="background-color: black;">
+<h1 style="background-color: gold;"><center>HOLIDAY LIST</center></h1>
+<p align="left"><a href='/'><button class=black style="background-color:teal; color: aliceblue;">Home</button></a></p>
+<center>
+    <table border="1" style="background-color: turquoise; color: black;">
+        {% for hday in hday1 %}
+            <tr>
+                <td>{{hday[0]}}</td>
+                <td>{{hday[1]}}</td>
+                <td>{{hday[2]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</center>
+</body>
